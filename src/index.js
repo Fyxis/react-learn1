@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './style.css'
+import Navbar from './Navbar'
+import Footer from './FooterSection'
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+	<>
+		<React.StrictMode>
+			<Navbar />
+			<Footer />
+		</React.StrictMode>
+	</>
+);
+
+reportWebVitals();

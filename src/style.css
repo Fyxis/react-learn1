@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 132, 0);
+    border-radius: 10px;
+    height: 50px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 206, 153);
+}
+.cabin-font{
+    font-family: 'Cabin', sans-serif;
+}
+.plc{
+    padding-left: 50px;
+}
+.prc{
+    padding-right: 50px;
+}
+.plc{
+    padding-left: 0;
+}
+.f-category{
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    font-weight: 800;
+    color: rgba(49, 53, 59, 0.96);
+}
+.mtc{
+    margin-top: 60px;
+}
+.fs-description{
+    font-size: 14px;
+}
+.brand-text{
+    color: rgb(255, 132, 0);
+}
+.pdlc{
+    padding-left: 50px;
+}
+.pdrc{
+    padding-right: 50px;
+}
+.card-text.rating {
+    display: flex;
+}
+
+.card-text.rating .star {
+    font-size: 1.2rem;
+    color: #f8ce0b;
+}
+
+.card-text.rating .star::before {
+    content: '\2605';
+}
+
+.card-text.rating .star:not(:last-child) {
+    margin-right: 0.5rem;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.cart-notification {
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 8px;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    right: 199px;
+    text-align: center;
+    top: 17px;
+    width: 15px;
+}
